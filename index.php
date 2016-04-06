@@ -1,0 +1,1 @@
+<?php include_once ("Basic-Portfolio/index.html" "Basic-Portfolio/portfolio.html" "Basic-Portfolio/contact.html"); ?>
