@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title>Contact | Danielle Bowman</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<header>
-<h1>Danielle Bowman</h1>
-
-<div class="links">
+  <header id="masthead">
+  <div class="container">
+  <a href="index.html" id="logo"> Danielle Bowman</a>
+  <nav>
 		<a href="index.html"> About </a>
-		<a href="portfolio.html"> Portfolio</a>
+    <a href="portfolio.html"> Portfolio</a>
 		<a href="contact.html"> Contact </a>
-</div>
-</header>
-<h2>Contact</h2>
-<form action="contact.php" method="post" id="form">
-    <br>Your name</br>
-    <input type="text" name="cf_name"><br>
-    Your e-mail</br>
-    <input type="text" name="cf_email"><br>
-    Message</br>
-    <textarea name="cf_message"></textarea>
-    <input type="submit" value="Submit">
+    </nav>
+    </div>
+  </header>
+
+<div id="main-container" class="container">
+  <section class="main-section">
+<h1>Contact</h1>
+<form id="contact-form">
+<ul>
+    <li>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+    </li>
+    <li>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+    <li>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required="required"></textarea>
+    </li>
+    </ul>
    </form>
       
-<div class= "connect">  
-        <h3>Connect with Me </h3>
+<section class= "sidebar">
+<div class="connect">  
+        <h2>Connect with Me </h2>
         
       <a href="https://github.com/dcbowman">
       <img src="assets/images/gitimg.png" alt="github" style="width:42px;height:42px;border:0"></a>
@@ -35,8 +47,8 @@
     <a href="http://stackoverflow.com/users/6137120/danielle-bowman">
       <img src="assets/images/stackoverflow.png" alt="stack" style="width:42px;height:42px;border:0"></a>
         </div>
-            
-
+    
+        </section>
 
     <div class="footer">
         @Copyright2016 Danielle Bowman
