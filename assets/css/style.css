@@ -140,6 +140,7 @@ h3,
 	max-width: 650px;
 	float: left;
 	border: 1px solid #ddd;
+	color:#999;
 }
 
 /*portfolio page*/
@@ -215,4 +216,117 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+
+
+
+@media screen and (max-width: 980px) and (min-width:769){
+nav a {
+	display:flex;
+	flex-direction:row; align-items;
+}
+.logo {
+	margin-right:auto;
+	margin-left:20px;
+	align-self:center;
+	padding-left:40px;
+}
+.auth-image {
+	max-width: 100%;
+	float:left;
+}
+.main-section {
+	max-width:50%;
+	padding-right:500px;
+	padding-left:30px;
+	float:left;
+}
+.sidebar {
+	max-width:50%;
+	float:right;
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px){
+
+header{
+	position: fixed;
+		max-width:100%;
+		padding-right:50px;}
+
+#masthead nav {
+	display:flex;
+	flex-direction:row; 
+}
+nav {
+	margin-right:auto;
+}
+
+.logo{
+	margin-right:auto;
+	margin-left:10px;
+	width:350px;
+	}
+.auth-image{
+	float:left;
+	width:50%;
+}
+.main-section{
+	max-width: 100%;
+	}
+
+}
+.sidebar{
+	max-width:100%;
+}
+
+@media screen and (max-width: 640px){
+	header{position:static}
+
+	#masthead{
+		display:flex;
+		padding:0;
+		justify-content: space-between;
+		}
+	nav {
+		display:flex;
+		flex-direction:row; align-items: 
+		max-width:100%;
+		justify-content: space-between;
+		padding-right:190px;
+	}
+	
+#logo{
+	width: 100%;
+}
+.main-container{
+	
+	padding:20px;
+
+}
+	.container{
+		padding:15px;
+
+	}
+	.main-section{
+		padding-top: 10px;
+		margin-top: 50px;
+	}
+
+	.auth-image{
+		max-width: 100%;
+		float:none;
+
+	}
+	.sidebar{
+		float:left;
+		width: 100%
+		padding-right:0px;
+	}
+	.work img{
+		max-width: 100%
+		height:auto;}
+
+	}
+footer{width:100%;}
+}
 
